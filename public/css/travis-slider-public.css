@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.travis-slider-error {
+  background-color: #f0f0f0;
+  padding: 13px 20px;
+  border-radius: 3px;
+  border-right: solid 3px #d50000;
+  font-size: 16px;
+}
+
+.travis-slider .owl-nav span {
+  background-color: #dedede;
+  border-radius: 30px;
+  margin: 0 5px;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  display: inline-block;
+  transition: all .2s ease;
+  font-family: tahoma;
+}
+
+.travis-slider .owl-nav span:hover {
+  background-color: #dee6f7;
+}
+
+.travis-slider .owl-nav button:focus {
+  outline: none;
+}
+
+.travis-slider .owl-nav {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.travis-slider {
+  max-width: 100% !important;
+}
+
+.travis-slider .owl-item {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.travis-slider .owl-stage-outer {
+  border-radius: 10px;
+}
+
+.travis-slider .owl-stage-outer:hover{
+  cursor: grab;
+}
+.travis-slider .owl-stage-outer:active{
+  cursor: grabbing;
+}
+.travis-slider .owl-nav span {
+  background-color: #EBEFF8;
+  border-radius: 30px;
+  margin: 0 5px;
+  width: 55px;
+  height: 33px;
+  line-height: 30px;
+  display: inline-block;
+  transition: all .2s ease;
+  font-family: tahoma;
+  color: #636974;
+  box-shadow: 0 5px 15px #e0e7f3;
+  border: solid 1px #e3eaf9;
+}

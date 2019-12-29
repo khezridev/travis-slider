@@ -1,0 +1,13 @@
+.idea
+.travis.yml
+bin
+tests
+vendor
+composer.json
+composer.lock
+.phpcs.xml.dist
+phpunit.xml.dist
+.travis.yml
+composer.json
+composer.lock
+phpunit.xml.dist
